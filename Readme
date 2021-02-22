@@ -1,0 +1,72 @@
+Readme File by Brendan Derr
+The main program is the assg1. java file
+This program first initializes the citeseer folder into a file
+It then creates a file to hold the stopwords from the stopwords file and stores those words into a hashtable
+A file array is then made to hold all the files contained in the citeseer folder
+Next each file from citeseer is read and preprocessed, with each unique word stored into a hashtable
+Next the program prints the answers for task 2 of the assignment.
+The program then does the same thing to the file array except this time it incorporates the porter.java file and removes all stop words from the hashtable.
+For the porter-stemmer incorporation part, I lowercased all the words prior to stemming them because the stopwords file has all stopwords lowercased.
+It then prints the answers for task 3 of the assignment.
+
+Running this program:
+I'm not sure exactly how Netbeans works as an IDE but here's how it compiles in eclipse.
+Assg1.java and porter.java are contained within the same package. You would just need to run the assg1.java file and since both are in the same package all there methods should be shared for the purpose of using the porter-stemmer in assg1.java.
+I kept the citeseer folder, Readme file, and stopwords file outside of the src folder. Assuming Netbeans works the same way, the assg1.java file should be able to access both the citeseer and stopwords file in the creation of the file arrays and hashtables.
+I've sent the entire java project folder so that everything is exactly as it is on my end. 
+
+Task 2 answers:
+(1):484853
+(2):22615
+(3): Top twenty words:
+1: the=22300
+2: of=18667
+3: and=14146
+4: a=12156
+5: to=11341
+6: in=8058
+7: for=7036
+8: is=6558
+9: that=4798
+10: are=3721
+11: on=3658
+12: The=3426
+13: with=3095
+14: an=2938
+15: as=2855
+16: this=2723
+17: by=2664
+18: we=2610
+19: We=2543
+20: be=2501
+
+(4): 20
+(5): 5
+
+Task 3 answers:
+(1): 269623
+(2): 10718
+(3):Top twenty words:
+1: system=3773
+2: agent=3258
+3: data=2764
+4: base=2764
+5: inform=2433
+6: model=2356
+7: paper=2251
+8: queri=1944
+9: user=1884
+10: learn=1826
+11: algorithm=1599
+12: problem=1578
+13: web=1560
+14: applic=1553
+15: approach=1547
+16: comput=1528
+17: present=1508
+18: databas=1442
+19: introduc=1359
+20: method=1225
+
+(4): none
+(5):21
