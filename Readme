@@ -9,12 +9,6 @@ The program then does the same thing to the file array except this time it incor
 For the porter-stemmer incorporation part, I lowercased all the words prior to stemming them because the stopwords file has all stopwords lowercased.
 It then prints the answers for task 3 of the assignment.
 
-Running this program:
-I'm not sure exactly how Netbeans works as an IDE but here's how it compiles in eclipse.
-Assg1.java and porter.java are contained within the same package. You would just need to run the assg1.java file and since both are in the same package all there methods should be shared for the purpose of using the porter-stemmer in assg1.java.
-I kept the citeseer folder, Readme file, and stopwords file outside of the src folder. Assuming Netbeans works the same way, the assg1.java file should be able to access both the citeseer and stopwords file in the creation of the file arrays and hashtables.
-I've sent the entire java project folder so that everything is exactly as it is on my end. 
-
 Task 2 answers:
 (1):484853
 (2):22615
